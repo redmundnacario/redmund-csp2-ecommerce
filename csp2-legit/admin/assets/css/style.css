@@ -1,0 +1,172 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+
+.text-centered{
+	text-align: center;
+}
+
+.col-centered {
+	float:none;
+	margin: 0 auto;
+}
+
+.vertical-center {
+	position: relative;
+ 	top: -50%;
+	transform: translateY(50%)
+}
+
+.btn-pink {
+	background-color: #40e0d0!important;
+	color:#000;
+}
+
+.btn-pink:hover:enabled {
+	background-color: #000;
+	color: #fff;
+} 
+
+/*
+		Top NAVBAR
+*/
+.topnav {
+	height: 60px;
+	width:100%;
+	background-color: #F7FBFF;
+	/*float: left;*/
+	/*padding-left: 10%;*/
+
+	border-bottom-color: rgb(245, 245, 247);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.topnav p {
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+/*
+		SIDEBAR
+*/
+
+/* The side navigation menu */
+
+
+
+.sidenav {
+    height: 100vh; /* 100% Full-height */
+    /*width:  500px; width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    /*z-index: 1;  Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: whitesmoke !important; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    /*transition: 0.5s;  0.5 second transition effect to slide in the sidenav */
+    border-right:1px solid #989898;
+}
+.sidenav ul {
+	display: block;
+}
+
+.sidenav ul li {
+	position: relative;
+	padding: 16px 16px;
+	display: block;
+	/*position: relative;*/
+}
+
+.sidenav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #989898;
+}
+/*.sidenav ul li a:hover {
+	border-right: 6px solid #3c506a;
+}*/
+.sidenav ul li a:hover:before {
+	content: '';
+	position: absolute;
+	width: 3px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: #4080ff;
+}
+
+.sidenav ul li i {
+	min-width: 20px;
+	text-align: center;
+}
+
+.sidenav ul li span:nth-child(2){
+	margin-left: 10px;
+	font-size:16px;
+}
+
+.active {
+	background-color: #fff;
+}
+
+.active a span{
+	color: #000;
+}
+
+
+/*
+		sub-main-content
+*/
+
+.sub-main-content {
+	padding:20px;
+}
+
+
+tr:hover {
+	background-color: #F7FBFF !important;
+}
+
+th,
+td {
+	text-align: center;
+}
+
+/*
+Small	Medium	Large
+750px	970px	1170px
+*/
+
+
+
+@media screen and (max-width: 971px){
+	.main-content{
+		padding-left: 120px;
+	}
+	.sidenav{
+		width:120px;
+	}
+}
+@media screen and (max-width: 751px){
+	.main-content{
+		padding-left: 120px;
+	}
+	.sidenav{
+		width:120px;
+	}
+}
+@media screen and (min-width: 971px){
+	.main-content{
+		padding-left: 120px;
+	}
+	.sidenav{
+		width:120px;
+	}
+}
+
+
+

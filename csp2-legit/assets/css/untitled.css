@@ -1,0 +1,74 @@
+.col-centered{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.brand-head-div,
+.brand-head-small {
+	font-family: 'Kaushan Script', cursive;
+	color: #AF8471;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-size: 4em;
+}
+.brand-head-small {
+	font-size: 1em;
+}
+
+.brand-head{
+	text-shadow: 2px 2px 8px gainsboro;
+	text-align: center;
+}
+
+.navbar .navbar-center {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+.navbar.navbar-above {
+	border-radius: 0;
+  	background-color: white;
+  	/*opacity: 0.5;*/
+  	border: 0;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	padding:0;
+  	margin:0;
+}
+
+.navbar.navbar-default {
+	border-radius: 0;
+	color:tan;
+  	background-color: tan;
+  	/*opacity: 0.5;*/
+  	border: 0;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+.nav.navbar-nav li a {
+    color:  #577a4f;
+    /*font-weight: bold;*/
+    font-size: 1.2em;
+    /*text-transform: uppercase;*/
+}
+
+.glyphicon-search {
+	padding:17px;
+}
+
+a.logout {
+	background-color: gainsboro;
+	border-radius: 10px;
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
